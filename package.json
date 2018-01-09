@@ -1,0 +1,14 @@
+{
+  "name": "portfolio_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Virgil Xu",
+  "license": "ISC",
+  "dependencies": {
+    "netlify-cli": "^1.2.2"
+  }
+}
