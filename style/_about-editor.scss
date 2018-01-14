@@ -1,0 +1,26 @@
+.window-bar {
+  width: 100%;
+  background-color: #e4e3e5;
+}
+
+.editor-bar {
+  width: 100%;
+  background-color: #21252b;
+  color: white;
+}
+
+.editor-window {
+  width: 100%;
+  background-color: #282c34;
+
+  div {
+    display: flex;
+
+    .numbers {
+      display: flex;
+      justify-content: flex-end;
+      flex-basis: 2%;
+      color: grey;
+    }
+  }
+}
