@@ -1,20 +1,51 @@
+.editor-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
 .window-bar {
   width: 100%;
   background-color: #e4e3e5;
+  border-radius: 5px 5px 0 0;
+  display: flex;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  .circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-left: 8px;
+  }
 }
 
 .editor-bar {
   width: 100%;
   background-color: #21252b;
   color: white;
+  padding-top: 10px;
+
+  .tab {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    background-color: #282c34;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 5px 5px 0 0;
+  }
 }
 
 .editor-window {
   width: 100%;
   background-color: #282c34;
+  font-family: 'Inconsolata', monospace;
+  padding-bottom: 15px;
 
   div {
     display: flex;
+    line-height: 1.4;
 
     .numbers {
       display: flex;
@@ -23,4 +54,24 @@
       color: grey;
     }
   }
+}
+
+.turquoise {
+  color: #58fad6;
+}
+
+.green {
+  color: #99c372;
+}
+
+.grey {
+  color: #abb2be;
+}
+
+.indent {
+  text-indent: 15px;
+}
+
+.indent2 {
+  text-indent: 30px;
 }
