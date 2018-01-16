@@ -6,41 +6,41 @@ const projectInfo = [
     color: 'green',
     skills: ['HTML5', 'CSS3', 'SASS', 'JavaScript', 'ReactJS', 'Redux'],
     links: {
-      github: '',
-      preview: ''
+      github: 'Github',
+      preview: 'Preview Demo'
     }
   },
   {
     title: 'Calendar',
-    description: 'adsdf',
-    screenshot: 'A simple calendar app to look up dates and to add daily tasks. This was one of my first projects where I used the ReactJS library.',
+    description: 'A simple calendar app to look up dates and to add daily tasks. This was one of my first projects where I used the ReactJS library.',
+    screenshot: '',
     color: 'purple',
     skills: ['HTML5', 'CSS3', 'SASS', 'JavaScript', 'ReactJS'],
     links: {
-      github: '',
-      preview: ''
+      github: 'Github',
+      preview: 'Preview Demo'
     }
   },
   {
     title: 'Calculator',
-    description: 'asdfs',
-    screenshot: 'A copy of the iPhone calculator that we use everyday on our phone. This project was written with only HTML, CSS, and Javascript. It helped me understand how to structure my projects as an MVC. This really helped me build a stronger JS foundation for web development.',
+    description: 'A copy of the iPhone calculator that we use everyday on our phone. This project was written with only HTML, CSS, and Javascript. It helped me understand how to structure my projects as an MVC. This really helped me build a stronger JS foundation for web development.',
+    screenshot: "url('../src/images/Calculator-screenshot.png')",
     color: 'orange',
     skills: ['HTML5', 'CSS3', 'JavaScript'],
     links: {
-      github: '',
-      preview: ''
+      github: 'Github',
+      preview: 'Preview Demo'
     }
   },
   {
     title: 'Portfolio',
-    description: 'asdf',
-    screenshot: 'My portfolio website that you\'re looking at right now. This project was made using ReactJS.',
+    description: 'My portfolio website that you\'re looking at right now. This project was made using ReactJS.',
+    screenshot: '',
     color: 'grey',
     skills: ['HTML5', 'CSS3', 'SASS', 'JavaScript', 'ReactJS'],
     links: {
-      github: '',
-      preview: ''
+      github: 'Github',
+      preview: 'Preview Demo'
     }
   }
 ];

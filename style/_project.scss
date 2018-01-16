@@ -1,10 +1,22 @@
 .project {
   display: flex;
   width: 50%;
-  background-color: green;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 
   .description {
     opacity: 0;
+
+    .skills-list {
+      display: flex;
+
+      .skills {
+        border: 1px white solid;
+        border-radius: 5px;
+      }
+    }
   }
 }
 
