@@ -1,0 +1,14 @@
+.project {
+  display: flex;
+  width: 50%;
+  background-color: green;
+
+  .description {
+    opacity: 0;
+  }
+}
+
+.project:hover .description {
+  opacity: 1;
+  transition: opacity 1.0s linear;
+}
