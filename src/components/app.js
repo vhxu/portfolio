@@ -32,8 +32,11 @@ class App extends Component {
       <div>
         <Navbar />
         <About />
-        <div className='projects-component'>
-          {this.mapProjects()}
+        <div className='projects-section'>
+          <h2>Projects</h2>
+          <div className='projects-component'>
+            {this.mapProjects()}
+          </div>
         </div>
       </div>
     )

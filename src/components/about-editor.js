@@ -23,7 +23,7 @@ class AboutEditor extends Component {
             <div className='grey'><span className='numbers'>7</span><span className='indent2'>LinkedIn</span><span className='turquoise'>:</span><span className='green space-left'>'LinkedIn'</span>,</div>
             <div className='grey'><span className='numbers'>8</span><span className='indent2'>GradEducation</span><span className='turquoise'>:</span><span className='green space-left'>'M.S. Engineering with Emphasis in Batteries, San Jose State University'</span>,</div>
             <div className='grey'><span className='numbers'>9</span><span className='indent2'>UnderGradEducation</span><span className='turquoise'>:</span><span className='green space-left'>'B.S. Chemical Engineering, University of California, Davis'</span>,</div>
-            <div className='grey'><span className='numbers'>10</span><span className='indent2'>skills</span><span className='turquoise'>:</span>[<span className='green'>'HTML5'</span>,<span className='green space-left'>'CSS3'</span>,<span className='green space-left'>'Sass'</span>,
+            <div className='grey'><span className='numbers'>10</span><span className='indent2'>skills</span><span className='turquoise space-right'>:</span>[<span className='green'>'HTML5'</span>,<span className='green space-left'>'CSS3'</span>,<span className='green space-left'>'Sass'</span>,
               <span className='green space-left'>'JavaScript'</span>,<span className='green space-left'>'ReactJS'</span>, <span className='green space-left'>'Webpack'</span>]</div>
             <div className='grey'><span className='numbers'>11</span><span className='indent'>}</span></div>
           </div>
