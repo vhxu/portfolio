@@ -17,7 +17,7 @@ class Projects extends Component {
   render(){
     return (
       <div className='project' style={{backgroundColor: this.props.color}}>
-        <div className='screenshot' style={{backgroundImage: this.props.screenshot}}>
+        <div className='description-container'>
           <div className='description'>
             <h2>{this.props.title}</h2>
             <div>{this.props.description}</div>
@@ -25,6 +25,12 @@ class Projects extends Component {
             <div>{this.props.github}</div>
             <div>{this.props.preview}</div>
           </div>
+        </div>
+
+        <div className='screenshot-container'>
+          <div className='screenshot' style={{backgroundImage: this.props.screenshot}}>
+        </div>
+
         </div>
       </div>
     )
