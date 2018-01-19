@@ -19,7 +19,7 @@ class Projects extends Component {
       <div className='project' style={{backgroundColor: this.props.color}}>
         <div className='description-container'>
           <div className='description'>
-            <h2>{this.props.title}</h2>
+            <h2 className='title'>{this.props.title}</h2>
             <div>{this.props.description}</div>
             <div className='skills-list'>{this.mapSkills()}</div>
             <div>{this.props.github}</div>

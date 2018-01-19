@@ -1,0 +1,26 @@
+.contact {
+
+  .contact-links {
+    display: flex;
+
+    .gmail {
+      width: 70px;
+      height: 70px;
+      background: url('../src/images/icons8-gmail-70.png');
+    }
+
+    .github {
+      width: 70px;
+      height: 70px;
+      background: url('../src/images/icons8-github-70.png');
+    }
+
+    .linkedin {
+      width: 70px;
+      height: 70px;
+      background: url('../src/images/icons8-linkedin-70.png');
+    }
+  }
+
+
+}

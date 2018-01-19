@@ -3,6 +3,7 @@ import Navbar from './navbar';
 import About from './about';
 import Projects from './projects';
 import projectInfo from '../data/project-info';
+import Contact from './contact';
 
 class App extends Component {
   constructor(props) {
@@ -38,6 +39,7 @@ class App extends Component {
             {this.mapProjects()}
           </div>
         </div>
+        <Contact />
       </div>
     )
   }

@@ -5,8 +5,12 @@ class About extends Component {
   render() {
     return (
       <div>
-        <h1>Hello, World!</h1>
-        <h2>My name is Virgil Xu, a Front-End Engineer in the Bay Area. I like to work on fun and challenging web applications. Check out my projects!</h2>
+        <div className='intro-container'>
+          <div className='intro'>
+            <h1>Hello, World!</h1>
+            <div>My name is Virgil Xu, a Front-End Engineer in the Bay Area. I like to work on fun and challenging web applications. Check out my projects!</div>
+          </div>
+        </div>
         <AboutEditor />
       </div>
     )
