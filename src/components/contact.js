@@ -4,7 +4,7 @@ class Contact extends Component {
 
   render() {
     return (
-      <div className='contact'>
+      <div id='contact-link' className='contact'>
         <div>Contact Me!</div>
         <div className='contact-links'>
           <div className='gmail'></div>

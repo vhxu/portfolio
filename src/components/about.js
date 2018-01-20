@@ -4,7 +4,7 @@ import AboutEditor from './about-editor';
 class About extends Component {
   render() {
     return (
-      <div>
+      <div id='about-link'>
         <div className='intro-container'>
           <div className='intro'>
             <h1>Hello, World!</h1>
