@@ -1,3 +1,13 @@
+.navbar-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fafafa;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  z-index: 1;
+}
+
 .navbar {
   display: flex;
   justify-content: flex-end;
@@ -15,5 +25,10 @@
       text-decoration: none;
       color: black;
     }
+  }
+
+  div:hover a {
+    color: blue;
+    transition: color .2s ease;
   }
 }

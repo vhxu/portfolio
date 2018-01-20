@@ -5,12 +5,13 @@ class Contact extends Component {
   render() {
     return (
       <div id='contact-link' className='contact'>
-        <div>Contact Me!</div>
-        <div className='contact-links'>
-          <div className='gmail'></div>
-          <div className='linkedin'></div>
-          <div className='github'></div>
-        </div>
+          <h2>Contact Me!</h2>
+          <div className='contact-links'>
+            <div className='gmail'></div>
+            <div className='linkedin'></div>
+            <div className='github'></div>
+          </div>
+
       </div>
     )
   }

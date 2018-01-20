@@ -31,8 +31,10 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Navbar />
-        <About />
+        <div className='navbar-about'>
+          <Navbar />
+          <About />
+        </div>
         <div id='projects-link' className='projects-section'>
           <h2>Projects</h2>
           <div className='projects-component'>
