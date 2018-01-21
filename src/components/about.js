@@ -8,7 +8,7 @@ class About extends Component {
         <div className='intro-container'>
           <div className='intro'>
             <h1>Hello, World!</h1>
-            <div>My name is Virgil Xu, a Front-End Engineer in the Bay Area. I like to work on fun and challenging web applications. Check out my projects!</div>
+            <div>My name is <span>Virgil Xu</span>, a <span>Front-End Engineer</span> in the Bay Area. I like to work on fun and challenging web applications. Check out my <span>projects</span>!</div>
           </div>
         </div>
         <AboutEditor />

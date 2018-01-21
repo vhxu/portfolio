@@ -28,7 +28,7 @@ const projectInfo = [
     description: 'A copy of the iPhone calculator that we use everyday on our phone. This project was written with only HTML, CSS, and Javascript. It helped me understand how to structure my projects as an MVC. This really helped me build a stronger JS foundation for web development.',
     screenshot: "url('../src/images/calculator-screenshot.png')",
     name: 'calculator',
-    color: '#1259BF',
+    color: '#0f61ab',
     skills: ['HTML5', 'CSS3', 'JavaScript'],
     links: {
       github: 'Github',
@@ -40,7 +40,7 @@ const projectInfo = [
     description: 'My portfolio website that you\'re looking at right now! This project was made using ReactJS.',
     screenshot: "url('../src/images/portfolio-screenshot2.png')",
     name: 'portfolio',
-    color: '#83B7E6',
+    color: '#4581FD',
     skills: ['HTML5', 'CSS3', 'SASS', 'JavaScript', 'ReactJS'],
     links: {
       github: 'Github',

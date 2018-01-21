@@ -25,7 +25,7 @@
   }
 
   .calendar {
-    width: 75%;
+    width: 80%;
   }
 
   .calculator {
@@ -33,7 +33,7 @@
   }
 
   .portfolio {
-    width: 75%;
+    width: 80%;
   }
 
 .description-container {
@@ -51,6 +51,13 @@
     margin-top: 20px;
     line-height: 1.5;
 
+    div {
+      color: white;
+    }
+
+    .title {
+      color: #FEBE01;
+    }
 
 
     .skills-list {
@@ -59,10 +66,11 @@
       margin-bottom: 20px;
 
       .skills {
-        border: 2px white solid;
+        border: 2px #FEBE01 solid;
         border-radius: 10px;
         margin-right: 8px;
         padding: 5px;
+        color: #FEBE01;
       }
     }
   }
