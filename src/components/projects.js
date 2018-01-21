@@ -27,7 +27,7 @@ class Projects extends Component {
           </div>
         </div>
         <div className='screenshot-container'>
-          <div className='screenshot' style={{backgroundImage: this.props.screenshot}}>
+          <div className={'screenshot '+ this.props.name} style={{backgroundImage: this.props.screenshot}}>
         </div>
         </div>
       </div>

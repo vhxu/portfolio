@@ -1,14 +1,17 @@
 .intro-container {
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
-  padding-top: 100px;
+  // margin-bottom: 50px;
+  padding-top: 180px;
+  padding-bottom: 300px;
+  background-image: linear-gradient(310deg, rgba(12, 98, 176, 1.0), rgba(23, 83, 143, 1.0) 56%, #2b3754);
 }
 
 .intro {
   display: flex;
   flex-direction: column;
   width: 80%;
+  color: #ffffff;
 
   div {
     font-size: 24px;

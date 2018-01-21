@@ -17,12 +17,13 @@ class App extends Component {
       const title = info.title;
       const description = info.description;
       const screenshot = info.screenshot;
+      const name = info.name;
       const color = info.color;
       const skills = info.skills;
       const github = info.links.github;
       const preview = info.links.preview;
       return (
-        <Projects key={i} title={title} description={description} screenshot={screenshot} color={color} skills={skills} github={github} preview={preview} />
+        <Projects key={i} title={title} description={description} screenshot={screenshot} name={name} color={color} skills={skills} github={github} preview={preview} />
       );
     })
   }
