@@ -20,6 +20,16 @@
 
     span {
       color: #FEBE01;
+
+      a:link {
+        text-decoration: none;
+        color: #FEBE01;
+      }
+
+      a:visited {
+        text-decoration: none;
+        color: #FEBE01;
+      }
     }
   }
 }

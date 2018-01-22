@@ -22,8 +22,10 @@ class Projects extends Component {
             <h2 className='title'>{this.props.title}</h2>
             <div>{this.props.description}</div>
             <div className='skills-list'>{this.mapSkills()}</div>
-            <div>{this.props.github}</div>
-            <div>{this.props.preview}</div>
+            <div className='links-container'>
+              <div className='links'><a href='#'>{this.props.github}</a></div>
+              <div className='links'><a href='#'>{this.props.preview}</a></div>
+            </div>
           </div>
         </div>
         <div className='screenshot-container'>

@@ -2,7 +2,7 @@ const projectInfo = [
   {
     title: 'Stock Market',
     description: 'An easy to use app to look up stocks. This was the first project where I used Redux to handle the application state. The app design was inspired by the Robinhood app. The API used was from IEX, Sparklines was used for the preview graph, Highcharts was used to graph the stock prices, and react-autosuggest was used to look up stock symbols.',
-    screenshot: "url('../src/images/stock-screenshot.png')",
+    screenshot: "url('../src/images/stock-screenshot-full.png')",
     name: 'stock-market',
     color: '#334CAA',
     skills: ['HTML5', 'CSS3', 'SASS', 'JavaScript', 'ReactJS', 'Redux'],
