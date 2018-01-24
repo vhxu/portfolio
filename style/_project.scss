@@ -1,13 +1,13 @@
 .project {
-  width: 50%;
-  height: 500px;
+  // width: 50%;
+  // height: 500px;
   // outline: 1px solid black;
 
 .screenshot-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 500px;
+  // height: 500px;
   // outline: 1px solid black;
 }
 
@@ -16,7 +16,7 @@
     background-size: cover;
     // width: 75%;
     display: flex;
-    height: 400px;
+    // height: 400px;
     box-shadow: 0px 14px 71px -12px rgba(0,0,0,0.55);
   }
 
@@ -44,10 +44,10 @@
 
   .description {
     position: absolute;
-    width: 45%;
+    // width: 45%;
     opacity: 0;
-    margin-top: 20px;
-    line-height: 1.8;
+    // margin-top: 20px;
+    // line-height: 1.8;
 
     div {
       color: white;
@@ -65,7 +65,7 @@
 
       .skills {
         // border: 2px #FEBE01 solid;
-        margin-right: 12px;
+        // margin-right: 12px;
         color: #FEBE01;
       }
     }
@@ -78,7 +78,7 @@
       .links {
         border: 2px solid #FEBE01;
         border-radius: 10px;
-        padding: 3px;
+        padding: 5px;
         margin-top: 5px;
         margin-bottom: 8px;
 
