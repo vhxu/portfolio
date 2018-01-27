@@ -21,11 +21,11 @@ class AboutEditor extends Component {
             <div className='grey'><span className='numbers'>5</span><span className='indent2'>email</span><span className='turquoise'>:</span><span className='green space-left'>'virgilxu89@gmail.com'</span>,</div>
             <div className='grey'><span className='numbers'>6</span><span className='indent2'>Github</span><span className='turquoise'>:</span><span className='green space-left'>'Github'</span>,</div>
             <div className='grey'><span className='numbers'>7</span><span className='indent2'>LinkedIn</span><span className='turquoise'>:</span><span className='green space-left'>'LinkedIn'</span>,</div>
-            <div className='grey small-window'><span className='numbers'>8</span><span className='indent2'>GradEducation</span><span className='turquoise'>:</span><span className='green space-left'>'M.S. Engineering with Emphasis in Batteries, San Jose State University'</span>,</div>
-            <div className='grey small-window'><span className='numbers'>9</span><span className='indent2'>UnderGradEducation</span><span className='turquoise'>:</span><span className='green space-left'>'B.S. Chemical Engineering, University of California, Davis'</span>,</div>
+            <div className='grey small-window'><span className='numbers'>8</span><span className='indent2'>GradEducation</span><span className='turquoise'>:</span><span className='green space-left education-long'>'M.S. Engineering, Emphasis in Batteries, San Jose State University'</span><span className='green space-left education-short'>'M.S. Engineering, Emphasis in Batteries, SJSU'</span>,</div>
+            <div className='grey small-window'><span className='numbers'>9</span><span className='indent2'>UnderGradEducation</span><span className='turquoise'>:</span><span className='green space-left education-long'>'B.S. Chemical Engineering, University of California, Davis'</span><span className='green space-left education-short'>'B.S. Chemical Engineering, UC Davis'</span>,</div>
             <div className='grey small-window'><span className='numbers'>10</span><span className='indent2'>skills</span><span className='turquoise space-right'>:</span>[<span className='green'>'HTML5'</span>,<span className='green space-left'>'CSS3'</span>,<span className='green space-left'>'Sass'</span>,
               <span className='green space-left'>'JavaScript'</span>,<span className='green space-left'>'ReactJS'</span>, <span className='green space-left'>'Webpack'</span>]</div>
-            <div className='grey'><span className='small-window numbers'>11</span><span className='numbers'>8</span><span className='indent'>}</span></div>
+            <div className='grey'><span className='small-window numbers'>11</span><span className='numbers large-window'>8</span><span className='indent'>}</span></div>
           </div>
         </div>
       </div>

@@ -16,24 +16,28 @@ body {
     width: 100%;
   }
 
-  .intro {
-    width: 90%;
+  .intro-container {
+    padding-top: 100px;
+
+    .intro {
+      width: 90%;
+    }
   }
 
   .editor-container {
     width: 95%;
-  }
 
-  .tab {
-    width: 30%;
-    font-size: 14px;
-  }
+    .tab {
+      width: 30%;
+      font-size: 14px;
+    }
 
-  .editor-window {
-    font-size: 16px;
+    .editor-window {
+      font-size: 16px;
 
-    .small-window {
-      display: none !important;
+      .small-window {
+        display: none !important;
+      }
     }
   }
 
@@ -46,7 +50,23 @@ body {
     height: 350px;
 
     .screenshot {
-      height: 250px;
+      height: 275px;
+    }
+
+    .stock-market {
+      width: 90%;
+    }
+
+    .calendar {
+      width: 90%;
+    }
+
+    .calculator {
+      width: 45%;
+    }
+
+    .portfolio {
+      width: 90%;
     }
   }
 
@@ -55,26 +75,126 @@ body {
 
     .description {
       width: 90%;
-      font-size: 14px;
+      font-size: 16px;
       line-height: 1.5;
 
       .skills-list {
 
         .skills {
           margin-right: 10px;
+          font-size: 14px;
         }
+      }
+
+      .links-container {
+        justify-content: space-between;
       }
     }
   }
 
+  .contact-container {
 
-  //
-  // .screenshot-container {
-  //   display: flex;
-  //   justify-content: center;
-  //   align-items: center;
-  //   height: 500px;
-  //   // outline: 1px solid black;
-  // }
+    .contact {
+      width: 90%;
 
+      .contact-links {
+
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 450px) and (max-width: 900px) {
+  .navbar-container {
+    width: 100%;
+  }
+
+  .intro-container {
+    padding-top: 100px;
+
+    .intro {
+      width: 90%;
+    }
+  }
+
+  .editor-container {
+    width: 90%;
+
+    .tab {
+      width: 30%;
+      font-size: 14px;
+    }
+
+    .editor-window {
+      font-size: 16px;
+
+      .large-window {
+        display: none;
+      }
+      .education-long {
+        display: none;
+      }
+    }
+  }
+
+  .project {
+    width: 50%;
+    height: 350px;
+  }
+
+  .screenshot-container {
+    height: 350px;
+
+    .screenshot {
+      height: 275px;
+    }
+
+    .stock-market {
+      width: 90%;
+    }
+
+    .calendar {
+      width: 90%;
+    }
+
+    .calculator {
+      width: 45%;
+    }
+
+    .portfolio {
+      width: 90%;
+    }
+  }
+
+  .description-container {
+
+    .description {
+      width: 45%;
+      font-size: 16px;
+      line-height: 1.5;
+
+      .skills-list {
+
+        .skills {
+          margin-right: 10px;
+          font-size: 14px;
+        }
+      }
+
+      .links-container {
+        justify-content: space-between;
+      }
+    }
+  }
+
+  .contact-container {
+
+    .contact {
+      width: 90%;
+
+      .contact-links {
+        width: 40%;
+      }
+    }
+  }
 }
