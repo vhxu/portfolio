@@ -17,20 +17,24 @@ body {
   }
 
   .intro {
-    width: 100%;
+    width: 90%;
   }
 
   .editor-container {
-    width: 100%;
+    width: 95%;
   }
 
   .tab {
     width: 30%;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .editor-window {
-    font-size: 18px;
+    font-size: 16px;
+
+    .small-window {
+      display: none !important;
+    }
   }
 
   .project {
@@ -44,12 +48,26 @@ body {
     .screenshot {
       height: 250px;
     }
+  }
+
+  .description-container {
+    width: 100%;
 
     .description {
-      width: 95%;
+      width: 90%;
       font-size: 14px;
+      line-height: 1.5;
+
+      .skills-list {
+
+        .skills {
+          margin-right: 10px;
+        }
+      }
     }
   }
+
+
   //
   // .screenshot-container {
   //   display: flex;
