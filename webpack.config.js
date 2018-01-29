@@ -1,6 +1,9 @@
 var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var path = require('path');
+var CopyWebpackPlugin = require('copy-webpack-plugin');
+var ImageminPlugin = require('imagemin-webpack-plugin').default;
+
 
 module.exports = {
   entry: [
@@ -46,6 +49,13 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: './index.html'
-    })
+    }),
+    new CopyWebpackPlugin([{
+     from: './src/images/',
+     to: 'images'
+   }]),
+    new ImageminPlugin({
+      disable: process.env.NODE_ENV !== 'production',
+      test: /\.(jpe?g|png|gif|svg)$/i })
   ]
 };
