@@ -110,7 +110,7 @@ body {
   }
 
   .intro-container {
-    padding-top: 100px;
+    padding-top: 180px;
 
     .intro {
       width: 90%;
@@ -194,6 +194,209 @@ body {
 
       .contact-links {
         width: 40%;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+  .navbar-container {
+    width: 100%;
+  }
+
+  .intro-container {
+    padding-top: 200px;
+
+    .intro {
+      width: 90%;
+    }
+  }
+
+  .editor-container {
+    width: 90%;
+
+    .tab {
+      width: 25%;
+      font-size: 14px;
+    }
+
+    .editor-window {
+      font-size: 16px;
+
+      .large-window {
+        display: none;
+      }
+      .education-short {
+        display: none;
+      }
+    }
+  }
+
+  .project {
+    width: 50%;
+    height: 450px;
+  }
+
+  .screenshot-container {
+    height: 450px;
+
+    .screenshot {
+      height: 350px;
+    }
+
+    .stock-market {
+      width: 80%;
+    }
+
+    .calendar {
+      width: 80%;
+    }
+
+    .calculator {
+      width: 40%;
+    }
+
+    .portfolio {
+      width: 80%;
+    }
+  }
+
+  .description-container {
+
+    .description {
+      width: 40%;
+      font-size: 16px;
+      line-height: 1.5;
+
+      .skills-list {
+
+        .skills {
+          margin-right: 10px;
+          font-size: 16px;
+        }
+      }
+
+      .links-container {
+
+        .links {
+          margin-right: 12px;
+        }
+      }
+    }
+  }
+
+  .contact-container {
+
+    .contact {
+      width: 90%;
+
+      .contact-links {
+        width: 40%;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    // width: 1200px;
+    // margin-left: auto;
+    // margin-right: auto;
+  }
+
+  .navbar-container {
+    width: 100%;
+  }
+
+  .intro-container {
+    padding-top: 200px;
+
+    .intro {
+      width: 1250px;
+    }
+  }
+
+
+  .editor-container {
+    width: 1000px;
+
+    .tab {
+      width: 200px;
+      font-size: 14px;
+    }
+
+    .editor-window {
+      font-size: 16px;
+
+      .large-window {
+        display: none;
+      }
+      .education-short {
+        display: none;
+      }
+    }
+  }
+
+  .project {
+    width: 50%;
+    height: 450px;
+  }
+
+  .screenshot-container {
+    height: 450px;
+
+    .screenshot {
+      height: 350px;
+    }
+
+    .stock-market {
+      width: 520px;
+    }
+
+    .calendar {
+      width: 520px;
+    }
+
+    .calculator {
+      width: 210px;
+    }
+
+    .portfolio {
+      width: 520px;
+    }
+  }
+
+  .description-container {
+
+    .description {
+      width: 40%;
+      font-size: 16px;
+      line-height: 1.5;
+
+      .skills-list {
+
+        .skills {
+          margin-right: 10px;
+          font-size: 16px;
+        }
+      }
+
+      .links-container {
+
+        .links {
+          margin-right: 12px;
+        }
+      }
+    }
+  }
+
+  .contact-container {
+
+    .contact {
+      width: 90%;
+
+      .contact-links {
+        width: 400px;
       }
     }
   }
