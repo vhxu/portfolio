@@ -17,7 +17,19 @@
     justify-content: space-between;
     margin-top: 20px;
 
-    div:hover {
+    div {
+      a:link {
+        text-decoration: none;
+        color: black;
+      }
+
+      a:visited {
+        text-decoration: none;
+        color: black;
+      }
+    }
+
+    div:hover a {
       color: #FEBE01;
       transition: color .2s ease;
     }

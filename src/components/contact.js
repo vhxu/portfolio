@@ -8,9 +8,9 @@ class Contact extends Component {
         <div id='contact-link' className='contact'>
           <div>CONTACT ME</div>
             <div className='contact-links'>
-              <div>Email</div>
-              <div>LinkedIn</div>
-              <div>Github</div>
+              <div><a href='mailto:virgilxu89@gmail.com'>Email</a></div>
+              <div><a href='https://www.linkedin.com/in/virgil-xu-261b3550'>LinkedIn</a></div>
+              <div><a href='https://github.com/vhxu'>Github</a></div>
             </div>
         </div>
       </div>

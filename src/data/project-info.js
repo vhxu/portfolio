@@ -7,7 +7,7 @@ const projectInfo = [
     color: '#334CAA',
     skills: ['HTML5', 'CSS3', 'SASS', 'JavaScript', 'ReactJS', 'Redux'],
     links: {
-      github: 'Github',
+      github: 'https://github.com/vhxu/StockMarketReactProject',
       preview: 'Preview Demo'
     }
   },
@@ -19,7 +19,7 @@ const projectInfo = [
     color: '#8091CD',
     skills: ['HTML5', 'CSS3', 'SASS', 'JavaScript', 'ReactJS'],
     links: {
-      github: 'Github',
+      github: 'https://github.com/vhxu/CalendarReactProject',
       preview: 'Preview Demo'
     }
   },
@@ -31,7 +31,7 @@ const projectInfo = [
     color: '#0f61ab',
     skills: ['HTML5', 'CSS3', 'JavaScript'],
     links: {
-      github: 'Github',
+      github: 'https://github.com/vhxu/calculator-app',
       preview: 'Preview Demo'
     }
   },
@@ -43,7 +43,7 @@ const projectInfo = [
     color: '#4581FD',
     skills: ['HTML5', 'CSS3', 'SASS', 'JavaScript', 'ReactJS'],
     links: {
-      github: 'Github',
+      github: 'https://github.com/vhxu/portfolio',
       preview: 'Preview Demo'
     }
   }

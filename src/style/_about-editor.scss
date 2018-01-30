@@ -75,6 +75,21 @@
 
 .green {
   color: #99c372;
+
+  a:link {
+    text-decoration: none;
+    color: #99c372;
+  }
+
+  a:visited {
+    text-decoration: none;
+    color: #99c372;
+  }
+}
+
+.green:hover a {
+  color: #c675db;
+  transition: color .2s ease;
 }
 
 .grey {
