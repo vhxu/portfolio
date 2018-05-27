@@ -8,7 +8,7 @@ const projectInfo = [
     skills: ['HTML5', 'CSS3', 'SASS', 'JavaScript', 'ReactJS', 'Redux'],
     links: {
       github: 'https://github.com/vhxu/StockMarketReactProject',
-      preview: 'Preview Demo'
+      preview: 'https://stock-market.virgilxu.com/'
     }
   },
   {
@@ -20,7 +20,7 @@ const projectInfo = [
     skills: ['HTML5', 'CSS3', 'SASS', 'JavaScript', 'ReactJS'],
     links: {
       github: 'https://github.com/vhxu/CalendarReactProject',
-      preview: 'Preview Demo'
+      preview: 'https://calendar.virgilxu.com'
     }
   },
   {
@@ -44,7 +44,7 @@ const projectInfo = [
     skills: ['HTML5', 'CSS3', 'SASS', 'JavaScript', 'ReactJS'],
     links: {
       github: 'https://github.com/vhxu/portfolio',
-      preview: 'Preview Demo'
+      preview: 'https://www.virgilxu.com/'
     }
   }
 ];
