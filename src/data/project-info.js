@@ -32,7 +32,7 @@ const projectInfo = [
     skills: ['HTML5', 'CSS3', 'JavaScript'],
     links: {
       github: 'https://github.com/vhxu/calculator-app',
-      preview: 'Preview Demo'
+      preview: 'https://calculator.virgilxu.com'
     }
   },
   {
